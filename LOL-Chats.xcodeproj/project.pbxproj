@@ -8,22 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		4461947E250FC73A009B2731 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4461947D250FC73A009B2731 /* AppDelegate.swift */; };
-		44619480250FC73A009B2731 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4461947F250FC73A009B2731 /* SceneDelegate.swift */; };
-		44619482250FC73A009B2731 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44619481250FC73A009B2731 /* ViewController.swift */; };
+		44619482250FC73A009B2731 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44619481250FC73A009B2731 /* ChatViewController.swift */; };
 		44619485250FC73A009B2731 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44619483250FC73A009B2731 /* Main.storyboard */; };
 		44619487250FC740009B2731 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44619486250FC740009B2731 /* Assets.xcassets */; };
 		4461948A250FC740009B2731 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44619488250FC740009B2731 /* LaunchScreen.storyboard */; };
+		44619494250FCA99009B2731 /* ChatMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44619493250FCA99009B2731 /* ChatMessageModel.swift */; };
+		44619497250FCE05009B2731 /* ChatMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44619496250FCE05009B2731 /* ChatMessageTableViewCell.swift */; };
+		4461949A250FCFF1009B2731 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44619499250FCFF1009B2731 /* UIColor+Extension.swift */; };
+		446194A6250FD43F009B2731 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4461949C250FD43E009B2731 /* OpenSans-Bold.ttf */; };
+		446194A7250FD43F009B2731 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4461949D250FD43E009B2731 /* OpenSans-Light.ttf */; };
+		446194A8250FD43F009B2731 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4461949E250FD43E009B2731 /* OpenSans-Italic.ttf */; };
+		446194A9250FD43F009B2731 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4461949F250FD43E009B2731 /* OpenSans-ExtraBoldItalic.ttf */; };
+		446194AA250FD43F009B2731 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 446194A0250FD43E009B2731 /* OpenSans-BoldItalic.ttf */; };
+		446194AB250FD43F009B2731 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 446194A1250FD43E009B2731 /* OpenSans-ExtraBold.ttf */; };
+		446194AC250FD43F009B2731 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 446194A2250FD43E009B2731 /* OpenSans-LightItalic.ttf */; };
+		446194AD250FD43F009B2731 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 446194A3250FD43E009B2731 /* OpenSans-Regular.ttf */; };
+		446194AE250FD43F009B2731 /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 446194A4250FD43E009B2731 /* OpenSans-SemiBoldItalic.ttf */; };
+		446194AF250FD43F009B2731 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 446194A5250FD43F009B2731 /* OpenSans-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4461947A250FC73A009B2731 /* LOL-Chats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LOL-Chats.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4461947D250FC73A009B2731 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4461947F250FC73A009B2731 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		44619481250FC73A009B2731 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44619481250FC73A009B2731 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		44619484250FC73A009B2731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44619486250FC740009B2731 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44619489250FC740009B2731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4461948B250FC740009B2731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44619493250FCA99009B2731 /* ChatMessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageModel.swift; sourceTree = "<group>"; };
+		44619496250FCE05009B2731 /* ChatMessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageTableViewCell.swift; sourceTree = "<group>"; };
+		44619499250FCFF1009B2731 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		4461949C250FD43E009B2731 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		4461949D250FD43E009B2731 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		4461949E250FD43E009B2731 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		4461949F250FD43E009B2731 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		446194A0250FD43E009B2731 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		446194A1250FD43E009B2731 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		446194A2250FD43E009B2731 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		446194A3250FD43E009B2731 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		446194A4250FD43E009B2731 /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		446194A5250FD43F009B2731 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +80,67 @@
 		4461947C250FC73A009B2731 /* LOL-Chats */ = {
 			isa = PBXGroup;
 			children = (
+				446194B0250FDEEA009B2731 /* ViewControllers */,
+				4461949B250FD428009B2731 /* Fonts */,
+				44619498250FCFDF009B2731 /* Extensions */,
+				44619495250FCDE6009B2731 /* Cells */,
+				44619492250FCA89009B2731 /* Models */,
 				4461947D250FC73A009B2731 /* AppDelegate.swift */,
-				4461947F250FC73A009B2731 /* SceneDelegate.swift */,
-				44619481250FC73A009B2731 /* ViewController.swift */,
 				44619483250FC73A009B2731 /* Main.storyboard */,
 				44619486250FC740009B2731 /* Assets.xcassets */,
 				44619488250FC740009B2731 /* LaunchScreen.storyboard */,
 				4461948B250FC740009B2731 /* Info.plist */,
 			);
 			path = "LOL-Chats";
+			sourceTree = "<group>";
+		};
+		44619492250FCA89009B2731 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				44619493250FCA99009B2731 /* ChatMessageModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		44619495250FCDE6009B2731 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				44619496250FCE05009B2731 /* ChatMessageTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		44619498250FCFDF009B2731 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				44619499250FCFF1009B2731 /* UIColor+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4461949B250FD428009B2731 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4461949C250FD43E009B2731 /* OpenSans-Bold.ttf */,
+				446194A0250FD43E009B2731 /* OpenSans-BoldItalic.ttf */,
+				446194A1250FD43E009B2731 /* OpenSans-ExtraBold.ttf */,
+				4461949F250FD43E009B2731 /* OpenSans-ExtraBoldItalic.ttf */,
+				4461949E250FD43E009B2731 /* OpenSans-Italic.ttf */,
+				4461949D250FD43E009B2731 /* OpenSans-Light.ttf */,
+				446194A2250FD43E009B2731 /* OpenSans-LightItalic.ttf */,
+				446194A3250FD43E009B2731 /* OpenSans-Regular.ttf */,
+				446194A5250FD43F009B2731 /* OpenSans-SemiBold.ttf */,
+				446194A4250FD43E009B2731 /* OpenSans-SemiBoldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		446194B0250FDEEA009B2731 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				44619481250FC73A009B2731 /* ChatViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +201,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				446194AE250FD43F009B2731 /* OpenSans-SemiBoldItalic.ttf in Resources */,
 				4461948A250FC740009B2731 /* LaunchScreen.storyboard in Resources */,
+				446194AD250FD43F009B2731 /* OpenSans-Regular.ttf in Resources */,
+				446194A9250FD43F009B2731 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				446194AB250FD43F009B2731 /* OpenSans-ExtraBold.ttf in Resources */,
 				44619487250FC740009B2731 /* Assets.xcassets in Resources */,
+				446194AF250FD43F009B2731 /* OpenSans-SemiBold.ttf in Resources */,
+				446194AC250FD43F009B2731 /* OpenSans-LightItalic.ttf in Resources */,
+				446194A6250FD43F009B2731 /* OpenSans-Bold.ttf in Resources */,
+				446194A8250FD43F009B2731 /* OpenSans-Italic.ttf in Resources */,
+				446194A7250FD43F009B2731 /* OpenSans-Light.ttf in Resources */,
+				446194AA250FD43F009B2731 /* OpenSans-BoldItalic.ttf in Resources */,
 				44619485250FC73A009B2731 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +224,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44619482250FC73A009B2731 /* ViewController.swift in Sources */,
+				44619482250FC73A009B2731 /* ChatViewController.swift in Sources */,
+				44619497250FCE05009B2731 /* ChatMessageTableViewCell.swift in Sources */,
 				4461947E250FC73A009B2731 /* AppDelegate.swift in Sources */,
-				44619480250FC73A009B2731 /* SceneDelegate.swift in Sources */,
+				44619494250FCA99009B2731 /* ChatMessageModel.swift in Sources */,
+				4461949A250FCFF1009B2731 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +382,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hialex.LOL-Chats";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +400,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hialex.LOL-Chats";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
